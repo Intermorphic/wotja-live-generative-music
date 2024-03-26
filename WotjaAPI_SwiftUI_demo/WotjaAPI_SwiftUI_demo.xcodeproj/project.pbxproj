@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20EB8382B4DD06E005D5F90 /* WotjaAPI.h in Sources */ = {isa = PBXBuildFile; fileRef = B20EB8372B4DD06E005D5F90 /* WotjaAPI.h */; };
+		B20EB83A2B4DD097005D5F90 /* WotjaAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B20EB8392B4DD096005D5F90 /* WotjaAPI.m */; };
+		B22AF5F02ACC4F0B00A51FAE /* WotjaDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AF5EF2ACC4F0B00A51FAE /* WotjaDemoApp.swift */; };
+		B22AF5F22ACC4F0B00A51FAE /* WotjaContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AF5F12ACC4F0B00A51FAE /* WotjaContentView.swift */; };
+		B22AF5F42ACC4F0D00A51FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22AF5F32ACC4F0D00A51FAE /* Assets.xcassets */; };
+		B22AF5F82ACC4F0D00A51FAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22AF5F72ACC4F0D00A51FAE /* Preview Assets.xcassets */; };
+		B2455B1E2AD0391100890170 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2455B1D2AD0391100890170 /* Localizable.strings */; };
+		B2B6DAF32AD02ED5007177A4 /* WotjaAPIButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6DAF22AD02ED4007177A4 /* WotjaAPIButtonStyle.swift */; };
+		B2B6DAF52AD02FC0007177A4 /* WotjaURITestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6DAF42AD02FC0007177A4 /* WotjaURITestData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B20EB8372B4DD06E005D5F90 /* WotjaAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WotjaAPI.h; sourceTree = "<group>"; };
+		B20EB8392B4DD096005D5F90 /* WotjaAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WotjaAPI.m; sourceTree = "<group>"; };
+		B21E65742B4F064A00A74E7B /* intermorphic_windows_solution.sln */ = {isa = PBXFileReference; lastKnownFileType = text; name = intermorphic_windows_solution.sln; path = intermorphic_windows_solution/intermorphic_windows_solution.sln; sourceTree = "<group>"; };
+		B21E65752B4F064A00A74E7B /* Wotja_X */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Wotja_X; path = products/wotja/Wotja_X; sourceTree = "<group>"; };
+		B22AF5EC2ACC4F0B00A51FAE /* WotjaAPI_SwiftUI_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WotjaAPI_SwiftUI_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22AF5EF2ACC4F0B00A51FAE /* WotjaDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WotjaDemoApp.swift; sourceTree = "<group>"; };
+		B22AF5F12ACC4F0B00A51FAE /* WotjaContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WotjaContentView.swift; sourceTree = "<group>"; };
+		B22AF5F32ACC4F0D00A51FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B22AF5F52ACC4F0D00A51FAE /* WotjaAPI_SwiftUI_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WotjaAPI_SwiftUI_demo.entitlements; sourceTree = "<group>"; };
+		B22AF5F72ACC4F0D00A51FAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B244A4172B507DA600642222 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		B244A4182B507DC900642222 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B2455B1D2AD0391100890170 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B2B6DADD2ACF0DC4007177A4 /* WotjaAPI_SwiftUI_demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WotjaAPI_SwiftUI_demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		B2B6DAF22AD02ED4007177A4 /* WotjaAPIButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WotjaAPIButtonStyle.swift; sourceTree = "<group>"; };
+		B2B6DAF42AD02FC0007177A4 /* WotjaURITestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WotjaURITestData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B22AF5E92ACC4F0B00A51FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B21E65762B4F064A00A74E7B /* Wotja X */ = {
+			isa = PBXGroup;
+			children = (
+				B21E65742B4F064A00A74E7B /* intermorphic_windows_solution.sln */,
+				B21E65752B4F064A00A74E7B /* Wotja_X */,
+			);
+			name = "Wotja X";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B22AF5E32ACC4F0B00A51FAE = {
+			isa = PBXGroup;
+			children = (
+				B244A4172B507DA600642222 /* LICENSE.md */,
+				B244A4182B507DC900642222 /* README.md */,
+				B20EB8372B4DD06E005D5F90 /* WotjaAPI.h */,
+				B20EB8392B4DD096005D5F90 /* WotjaAPI.m */,
+				B22AF5EF2ACC4F0B00A51FAE /* WotjaDemoApp.swift */,
+				B22AF5F12ACC4F0B00A51FAE /* WotjaContentView.swift */,
+				B2B6DAF42AD02FC0007177A4 /* WotjaURITestData.swift */,
+				B2B6DAF22AD02ED4007177A4 /* WotjaAPIButtonStyle.swift */,
+				B2B6DADD2ACF0DC4007177A4 /* WotjaAPI_SwiftUI_demo-Bridging-Header.h */,
+				B22AF5F32ACC4F0D00A51FAE /* Assets.xcassets */,
+				B2455B1D2AD0391100890170 /* Localizable.strings */,
+				B22AF5F52ACC4F0D00A51FAE /* WotjaAPI_SwiftUI_demo.entitlements */,
+				B21E65762B4F064A00A74E7B /* Wotja X */,
+				B22AF5F62ACC4F0D00A51FAE /* Preview Content */,
+				B22AF5ED2ACC4F0B00A51FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B22AF5ED2ACC4F0B00A51FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B22AF5EC2ACC4F0B00A51FAE /* WotjaAPI_SwiftUI_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22AF5F62ACC4F0D00A51FAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B22AF5F72ACC4F0D00A51FAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B22AF5EB2ACC4F0B00A51FAE /* WotjaAPI_SwiftUI_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22AF6112ACC4F0D00A51FAE /* Build configuration list for PBXNativeTarget "WotjaAPI_SwiftUI_demo" */;
+			buildPhases = (
+				B22AF5E82ACC4F0B00A51FAE /* Sources */,
+				B22AF5E92ACC4F0B00A51FAE /* Frameworks */,
+				B22AF5EA2ACC4F0B00A51FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WotjaAPI_SwiftUI_demo;
+			productName = WotjaAU3PluginSwiftHostAppDemo;
+			productReference = B22AF5EC2ACC4F0B00A51FAE /* WotjaAPI_SwiftUI_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B22AF5E42ACC4F0B00A51FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					B22AF5EB2ACC4F0B00A51FAE = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = B22AF5E72ACC4F0B00A51FAE /* Build configuration list for PBXProject "WotjaAPI_SwiftUI_demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B22AF5E32ACC4F0B00A51FAE;
+			productRefGroup = B22AF5ED2ACC4F0B00A51FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B22AF5EB2ACC4F0B00A51FAE /* WotjaAPI_SwiftUI_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B22AF5EA2ACC4F0B00A51FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22AF5F82ACC4F0D00A51FAE /* Preview Assets.xcassets in Resources */,
+				B2455B1E2AD0391100890170 /* Localizable.strings in Resources */,
+				B22AF5F42ACC4F0D00A51FAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B22AF5E82ACC4F0B00A51FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B6DAF32AD02ED5007177A4 /* WotjaAPIButtonStyle.swift in Sources */,
+				B20EB83A2B4DD097005D5F90 /* WotjaAPI.m in Sources */,
+				B2B6DAF52AD02FC0007177A4 /* WotjaURITestData.swift in Sources */,
+				B20EB8382B4DD06E005D5F90 /* WotjaAPI.h in Sources */,
+				B22AF5F22ACC4F0B00A51FAE /* WotjaContentView.swift in Sources */,
+				B22AF5F02ACC4F0B00A51FAE /* WotjaDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B22AF60F2ACC4F0D00A51FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B22AF6102ACC4F0D00A51FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B22AF6122ACC4F0D00A51FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WotjaAPI_SwiftUI_demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6189;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = 58KJY6Q73X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "WotjaAPI SwiftUI demo";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 23.12.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intermorphic.WotjaAUv3PluginSwiftHostAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WotjaAPI_SwiftUI_demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B22AF6132ACC4F0D00A51FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WotjaAPI_SwiftUI_demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6189;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = 58KJY6Q73X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "WotjaAPI SwiftUI demo";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 23.12.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intermorphic.WotjaAUv3PluginSwiftHostAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WotjaAPI_SwiftUI_demo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B22AF5E72ACC4F0B00A51FAE /* Build configuration list for PBXProject "WotjaAPI_SwiftUI_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22AF60F2ACC4F0D00A51FAE /* Debug */,
+				B22AF6102ACC4F0D00A51FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22AF6112ACC4F0D00A51FAE /* Build configuration list for PBXNativeTarget "WotjaAPI_SwiftUI_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22AF6122ACC4F0D00A51FAE /* Debug */,
+				B22AF6132ACC4F0D00A51FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B22AF5E42ACC4F0B00A51FAE /* Project object */;
+}

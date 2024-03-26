@@ -1,0 +1,31 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        101
+#define _APS_NEXT_COMMAND_VALUE         40001
+#define _APS_NEXT_CONTROL_VALUE         1001
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif
+
+#define IDR_MYMENU 101
+#define IDI_MYICON 201
+#define IDM_FILE_EXIT 9001
+#define IDC_WOTJA_LOADANDPLAY 9002
+#define IDC_WOTJA_PLAY 9003
+#define IDC_SHOW_WOTJA 9005
+#define IDC_SHOW_ABOUT_WOTJA 9006
+#define IDC_SHOW_WOTJA_EULA 9007
+#define IDC_SHOW_DEVELOPER_FAQ 9008
+#define IDC_IMPORT 9009
+#define IDC_INSTALL_WOTJA 9010
+#define IDC_UPDATE_WOTJA 9011
+#define IDC_TRY_AGAIN 9012
+#define IDC_LOAD_ALBUM2 9013
+#define IDC_LOAD_ALBUM1 9014
+#define IDC_LOAD_ALBUM3 9015
+
