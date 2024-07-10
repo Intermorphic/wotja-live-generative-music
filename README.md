@@ -2,7 +2,7 @@
 
 # Demo Applications for Developers that show how to send a Wotja URI to a Wotja App for it to generate Live Generative Music
 
-[Intermorphic](https://intermorphic.com), developers of [Wotja](https://wotja.com), have created a Generative Music API based around the use of cross-platform Wotja API URI strings. The Wotja API is supported by all Wotj app variants; for all of iOS, macOS, Windows and Android.
+[Intermorphic](https://intermorphic.com), developers of [Wotja](https://wotja.com), have created a Generative Music API based around the use of cross-platform Wotja API URI strings. The Wotja API is supported by all Wotja app variants; for all of iOS, macOS, Windows and Android.
 
 [Intermorphic](https://intermorphic.com), have also made available these iOS/macOS, Windows and Android demo projects to provide a starting point for small developers to explore the use by their app, game, visualiser etc. ('App/Game') of Live Generative Music. 
 
