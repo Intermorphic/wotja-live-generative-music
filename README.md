@@ -273,5 +273,5 @@ If not otherwise stated in the header of a file, all code in this project is rel
 
 Note: For the avoidance of doubt this project and the Demo Applications in it are provided as is and are subject to change. They do not include Wotja Software and confer no rights whatsoever in Wotja Software which if required by the End User of the App/Game can be be downloaded by that End User via the relevant platform-specific App Store. The use of Wotja Software is governed solely by the Wotja EULA to be found at https://wotja.com/legal/eula.
 
-Copyright (C) 2007-2024 [Intermorphic Limited](https://intermorphic.com). All rights reserved.
+Copyright (C) 1990-2026 [Intermorphic Limited](https://intermorphic.com). All rights reserved.
 

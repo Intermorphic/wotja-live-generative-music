@@ -49,5 +49,5 @@ If not otherwise stated in the header of a file, all code in this project is rel
 
 Note: For the avoidance of doubt use of Wotja is governed by the Wotja EULA to be found at https://wotja.com/legal/eula
 
-Copyright (C) 2007-2024 Intermorphic Limited. All Rights Reserved.
+Copyright © 1990-2026 Intermorphic Limited. All Rights Reserved.
 

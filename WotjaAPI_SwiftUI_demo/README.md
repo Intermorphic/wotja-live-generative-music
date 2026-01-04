@@ -8,7 +8,7 @@ By copying and adapting the code in this project, into your own project, you can
 
 # How does it work?
 
-If the Wotja app isn't detected, or has an earlier version than your app requires, then your app should the user to install the Wotja app from the App Store.
+If the Wotja app isn't detected, or has an earlier version than your app requires, then your app should prompt the user to install the Wotja app from the App Store.
 
 Once the Wotja app is installed, the Wotja app becomes available, and the project can detect it and load it using "Wotja URI" data.
 
@@ -59,5 +59,5 @@ If not otherwise stated in the header of a file, all code in this project is rel
 
 Note: For the avoidance of doubt use of Wotja is governed by the Wotja EULA to be found at https://wotja.com/legal/eula
 
-Copyright (C) 2007-2024 Intermorphic Limited. All Rights Reserved.
+Copyright © 1990-2026 Intermorphic Limited. All Rights Reserved.
 
