@@ -155,11 +155,11 @@ bool WotjaAPI::getIsPlaying() {
 // MARK: Wotja availability checking
 
 // Wotja API support added in the following Wotja version
-static std::wstring cMinimumWotjaVersion = L"24.0.90";
+static std::wstring cMinimumWotjaVersion = L"26.0.0";
 
 static WotjaAPI::WotjaStatus sWotjaStatus        = WotjaAPI::WotjaStatus_looking_for_wotja;
-static std::wstring sWotjaVersion                = L""; // Set internally to e.g. "24.1.0"
-static std::wstring sWotjaMinimumVersionRequired = L""; // Set by app to e.g. "24.1.0"
+static std::wstring sWotjaVersion                = L""; // Set internally to e.g. "26.0.0"
+static std::wstring sWotjaMinimumVersionRequired = L""; // Set by app to e.g. "26.0.0"
 
 // Returns e.g. "Looking for Wotja..."
 std::wstring WotjaAPI::convertWotjaStatusToString(WotjaAPI::WotjaStatus wotjaStatus) {
@@ -181,7 +181,7 @@ std::wstring WotjaAPI::getWotjaStatusString() {
   return convertWotjaStatusToString(getWotjaStatus());
 }
 
-// Returns e.g. @"24.1.0"
+// Returns e.g. @"26.0.0"
 std::wstring WotjaAPI::getFirstSupportedWotjaVersion() {
   return cMinimumWotjaVersion;
 }

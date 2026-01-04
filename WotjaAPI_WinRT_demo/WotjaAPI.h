@@ -42,7 +42,7 @@ public:
   // Returns e.g. "Looking for Wotja..."
   static std::wstring getWotjaStatusString();
 
-  // Returns e.g. "24.1.0"
+  // Returns e.g. "26.0.0"
   static std::wstring getFirstSupportedWotjaVersion();
 
   static WotjaAPI::WotjaStatus getWotjaStatus();

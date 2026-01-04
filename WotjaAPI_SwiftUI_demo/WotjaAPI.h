@@ -46,7 +46,7 @@ typedef NS_ENUM(NSUInteger, WotjaStatus) {
 // Returns e.g. @"Looking for Wotja..."
 +(NSString* _Nonnull) getWotjaStatusString;
 
-// Returns e.g. @"24.1.0"
+// Returns e.g. @"26.0.0"
 +(NSString* _Nonnull) getFirstSupportedWotjaVersion;
 
 +(WotjaStatus) getWotjaStatus;

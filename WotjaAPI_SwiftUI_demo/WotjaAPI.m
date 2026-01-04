@@ -399,11 +399,11 @@ static bool mbPlaying = NO;
 // MARK: Wotja availability checking
 
 // Wotja API support added in the following Wotja version
-static NSString* cMinimumWotjaVersion = @"24.1.0";
+static NSString* cMinimumWotjaVersion = @"26.0.0";
 
 static WotjaStatus sWotjaStatus = WotjaStatus_looking_for_wotja;
-static NSString* sWotjaVersion = @""; // Set internally to e.g. "24.1.0"
-static NSString* sWotjaMinimumVersionRequired = @""; // Set by app to e.g. "24.1.0"
+static NSString* sWotjaVersion = @""; // Set internally to e.g. "26.0.0"
+static NSString* sWotjaMinimumVersionRequired = @""; // Set by app to e.g. "26.0.0"
 
 +(NSString*) getFirstSupportedWotjaVersion {
   return cMinimumWotjaVersion;
